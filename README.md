@@ -2,9 +2,9 @@
 
 **Smart Task Management for Productivity & Team Collaboration**
 
-> A modern and responsive task management web application designed to help individuals and teams organize work efficiently, track progress, and improve productivity through an intuitive user interface. Built with a clean UI and smooth workflow management, TaskFlow makes it easy to create, manage, prioritize, and complete tasks in one place.
+> A modern and responsive task management web application designed to help individuals and teams organize work efficiently, track progress, and improve productivity through an intuitive user interface.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_ID/deploy-status)](https://app.netlify.com/sites/YOUR_SITE_NAME/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e9d5a2f9-9e8c-4a5b-8c3d-9e7f5c2a1b8d/deploy-status)](https://app.netlify.com/sites/gettaskflow/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -41,13 +41,9 @@
 
 ## 🖼️ Screenshots & Preview
 
-> *Add screenshots here*
-> 
-> ![Dashboard Preview](./path/to/screenshot1.png)
-> ![Task Management](./path/to/screenshot2.png)
-> ![Mobile View](./path/to/screenshot3.png)
+> Explore TaskFlow's intuitive interface and see how easy task management can be!
 
-**[🔗 View Live Demo](#-deployment)**
+**[🔗 View Live Demo](https://gettaskflow.netlify.app/)**
 
 ---
 
@@ -68,7 +64,7 @@ TaskFlow is deployed using **Netlify**, which provides fast global deployment an
 ## 📂 Project Structure
 
 ```
-TaskFlow/
+TaskFlow-Landing-Page/
 │
 ├── public/
 │   └── (static files)
@@ -77,10 +73,11 @@ TaskFlow/
 │   ├── components/        (Reusable React components)
 │   ├── pages/             (Page components)
 │   ├── assets/            (Images, icons, etc.)
-│   ├── App.js             (Main App component)
-│   └── main.js            (Entry point)
+│   ├── App.jsx            (Main App component)
+│   └── main.jsx           (Entry point)
 │
 ├── package.json           (Project dependencies)
+├── vite.config.js         (Vite configuration)
 ├── README.md              (This file)
 └── .gitignore
 ```
@@ -156,7 +153,7 @@ TaskFlow is fully responsive and works seamlessly across all devices:
 ## 🚀 Deployment
 
 ### Live Demo
-**👉 [TaskFlow Live Website](https://your-netlify-url.netlify.app)**
+**👉 [TaskFlow Live Website](https://gettaskflow.netlify.app/)**
 
 ### Deploy to Netlify
 1. Push your code to GitHub
