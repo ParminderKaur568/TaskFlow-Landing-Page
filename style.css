@@ -1,0 +1,75 @@
+
+    .jumbotron {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=1600&q=80');
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      margin-top: 60px;
+      padding: 100px 20px;
+    }
+
+    .jumbotron h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px 15px;
+    }
+
+    #footer {
+      text-align: center;
+      background-color: #1a1a2e;
+      color: white;
+      padding: 80px 20px;
+    }
+
+    .container h1 {
+      font-weight: bold;
+    }
+
+    #footer img {
+      margin: 10px;
+    }
+
+    #info ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    #info p {
+      margin-top: 1rem; 
+      text-align: center;
+    }
+
+    .cards-desk {
+      padding: 0 15px;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card {
+      height: 100%;
+    }
+
+    .navbar {
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    .row {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
